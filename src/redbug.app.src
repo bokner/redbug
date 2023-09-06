@@ -1,7 +1,8 @@
 {application,
- redbug,
- [{description, "Erlang Tracing Debugger"},
-  {vsn, "2.0.7"},
+ redbug_clone,
+ [{description, "Clone of redbug"},
+  {pkg_name, "redbug_clone"},  
+  {vsn, "2.0.9"},
   {applications, [kernel, stdlib, runtime_tools]},
   {licenses, ["MIT"]},
-  {links, [{"Github", "https://github.com/massemanet/redbug"}]}]}.
+  {links, [{"Github", "https://github.com/bokner/redbug"}]}]}.
